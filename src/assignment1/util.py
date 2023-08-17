@@ -1,5 +1,4 @@
 #question 1
-
 def list_command(N, C):
     list1 = []
     printed_list = []  # Initialize a variable to store printed lists
