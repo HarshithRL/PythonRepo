@@ -16,5 +16,6 @@ def list_command(N, C):
         elif c[0] == "reverse":
             list1.reverse()
         elif c[0] == "print":
-            printed_list.append(list1.copy())  # Store a copy of the list
-    return list1, printed_list
+            print(list1)
+            #print(printed_list.append(list1))  # Store a copy of the list
+    return list1
