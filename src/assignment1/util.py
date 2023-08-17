@@ -1,4 +1,6 @@
 #question 1
+import logging
+logging.basicConfig(level=logging.INFO, format='%(message)s')
 def list_command(N, C):
     list1 = []
     printed_list = []  # Initialize a variable to store printed lists
@@ -16,6 +18,6 @@ def list_command(N, C):
         elif c[0] == "reverse":
             list1.reverse()
         elif c[0] == "print":
-            print(list1)
+            logging.info(list1)
             #print(printed_list.append(list1))  # Store a copy of the list
     return list1
