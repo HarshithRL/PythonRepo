@@ -1,4 +1,3 @@
-# PythonRepo
-Python Assignment
-#updated
-#test 2
+# PythonRepo for Practice
+Python Haker_Rank Questions
+
